@@ -1,3 +1,6 @@
 @import "global.css";
 
-/* ... */
+.mainContainer {
+    width: 100%;
+    max-width: 800px; /* adjust later */
+}
