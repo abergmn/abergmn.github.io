@@ -6,3 +6,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* taken from home.css -- determine what should be global and what should not (code could also totally be fine!) */
+/* handle main container styling */
+.mainContainer {
+    width: 100%;
+    max-width: 800px; /* adjust later */
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
