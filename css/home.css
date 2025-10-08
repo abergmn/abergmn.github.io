@@ -1,6 +1,15 @@
 @import "global.css";
 
+/* handle main container styling */
 .mainContainer {
     width: 100%;
     max-width: 800px; /* adjust later */
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+
