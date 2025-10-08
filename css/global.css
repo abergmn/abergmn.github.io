@@ -1,3 +1,10 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -7,16 +14,48 @@ body {
     padding: 0;
 }
 
-/* taken from home.css -- determine what should be global and what should not (code could also totally be fine!) */
-/* handle main container styling */
 .mainContainer {
     width: 100%;
     max-width: 800px; /* adjust later */
 }
 
-nav {
+header, main {
+    padding: 0.5rem 0.5rem;
+}
+
+main h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
     gap: 1rem;
+    list-style: none;
 }
+
+#is-sub-title {
+    margin: 1rem 0 0.5rem;
+    text-decoration: underline;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 0.25rem;
+    padding: 0.5rem 0;
+}
+
+/* testing.... */
+.content-section-test {
+    overflow: hidden;
+}
+
+.float-image-test {
+    float: right;
+    margin-right: 0.5rem; /* small space between image and text */
+    max-width: 150px;     /* reasonable max width */
+    width: 100%;          /* allow it to shrink on small containers */
+    height: auto;         /* maintain aspect ratio */
+}
+
