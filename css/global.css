@@ -14,9 +14,13 @@ body {
     padding: 0;
 }
 
-.mainContainer {
+.main-content {
     width: 100%;
-    max-width: 800px; /* adjust later */
+    max-width: 700px; /* adjust later */
+}
+
+.main-content section {
+    padding: 1rem;
 }
 
 header, main {
@@ -35,27 +39,8 @@ nav ul {
     list-style: none;
 }
 
-#is-sub-title {
-    margin: 1rem 0 0.5rem;
-    text-decoration: underline;
-}
-
 footer p {
     text-align: center;
     margin-top: 0.25rem;
     padding: 0.5rem 0;
 }
-
-/* testing.... */
-.content-section-test {
-    overflow: hidden;
-}
-
-.float-image-test {
-    float: right;
-    margin-right: 0.5rem; /* small space between image and text */
-    max-width: 150px;     /* reasonable max width */
-    width: 100%;          /* allow it to shrink on small containers */
-    height: auto;         /* maintain aspect ratio */
-}
-
