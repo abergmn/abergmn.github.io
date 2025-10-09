@@ -7,7 +7,7 @@
 
 #about-img {
     float: right;
-    margin-right: 0.5rem;
+    margin: 0 0.5rem;
     max-width: 150px;     /* reasonable max width */
     width: 100%;          /* allow it to shrink on small containers */
     height: auto;         /* maintain aspect ratio */
