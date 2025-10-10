@@ -1,14 +1,19 @@
 @import "global.css";
 
+main h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
 #about-img {
     float: right;
     margin: 0 0.5rem;
-    max-width: 150px;     /* reasonable max width */
-    width: 100%;          /* allow it to shrink on small containers */
-    height: auto;         /* maintain aspect ratio */
+    max-width: 165px;
+    width: 100%;
+    height: auto;
 }
 
-/* testing.... */
+/* TEST */
 .content-section-test {
     overflow: hidden;
 }

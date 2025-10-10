@@ -1,3 +1,71 @@
 @import "global.css";
 
-/* ... */
+main h3 {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+#portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.portfolio-item {
+    flex: 0 0 calc(33.333% - 13.33px); /* 3 per row, minus gap */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.portfolio-item h3 {
+    font-size: 1.2rem;
+    margin: 0 0 8px;
+    color: #222;
+}
+
+.portfolio-item p {
+    font-size: 0.95rem;
+    color: #555;
+    flex-grow: 1;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.portfolio-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: 600;
+}
+
+.portfolio-item a:hover {
+    color: #0056b3;
+}
+
+@media (max-width: 900px) {
+    .portfolio-item {
+        flex: 0 0 calc(50% - 10px); /* 2 per row */
+    }
+}
+
+@media (max-width: 600px) {
+    .portfolio-item {
+        flex: 0 0 100%; /* 1 per row */
+    }
+}

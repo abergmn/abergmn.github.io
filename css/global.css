@@ -33,11 +33,6 @@ header, main {
     padding: 0.5rem 0 0.5rem 0;
 }
 
-main h1 {
-    text-align: center;
-    padding: 1rem;
-}
-
 nav ul {
     display: flex;
     flex-direction: row;
