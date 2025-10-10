@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Project Title",
+        "description": "A brief description of the project.",
+        "image": "https://placehold.co/600x400",
+        "link": "https://example.com"
+    },
+    {
+        "title": "Another Project",
+        "description": "A brief description of another project.",
+        "image": "https://placehold.co/600x400",
+        "link": "https://example.com"
+    },
+    {
+        "title": "Sample Project",
+        "description": "A brief description of a sample project.",
+        "image": "https://placehold.co/600x400",
+        "link": "https://example.com"
+    }
+]
