@@ -1,1 +1,33 @@
-/* ... */
+.mainContainer {
+    max-width: 700px;
+    width: 100%;
+}
+
+main section h3 {
+    padding-bottom: 0.75rem;
+    text-decoration: underline;
+}
+
+#about-me, #what-do, #skills,
+#projects, #interests, #goals,
+#resume-download {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+#about-me {
+    padding-top: 0;
+}
+
+#about-me h2 {
+    text-align: center;
+}
+
+#about-me p:first-of-type {
+    padding-top: 0.5rem;
+}
+
+#skills-list {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+}
