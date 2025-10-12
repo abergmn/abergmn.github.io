@@ -1,9 +1,9 @@
 [
     {
-        "title": "Project One",
-        "description": "A brief description of the project.",
+        "title": "GWrapper",
+        "description": "A minimal Electron.js wrapper with splash screen and main window support. Auto-published to npm via GitHub Actions.",
         "image": "https://placehold.co/600x400",
-        "link": "https://example.com"
+        "link": "https://github.com/abergmn/gwrapper"
     },
     {
         "title": "Project Two",

@@ -1,3 +1,7 @@
+/**
+ * PURPOSE: implements a typing effect for the homepage introduction text
+ */
+
 const text = "Hi, I'm Aaron Bergmann";
 const t_el = document.getElementById("typed");
 
