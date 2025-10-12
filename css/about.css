@@ -3,16 +3,17 @@
     width: 100%;
 }
 
-main section h3 {
-    padding-bottom: 0.75rem;
-    text-decoration: underline;
+#about-title {
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
 
-#about-me, #what-do, #skills,
-#projects, #interests, #goals,
+#about-me, #skills, #goals,
 #resume-download {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 #about-me {
