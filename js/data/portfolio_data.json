@@ -1,7 +1,7 @@
 [
     {
         "title": "GWrapper",
-        "description": "A minimal Electron.js wrapper with splash screen and main window support. Auto-published to npm via GitHub Actions.",
+        "description": "A lightweight Electron.js wrapper that handles splash screen and main window setup. Designed for fast bootstrapping of desktop apps with minimal configuration.",
         "image": "https://placehold.co/600x400",
         "link": "https://github.com/abergmn/gwrapper"
     },
