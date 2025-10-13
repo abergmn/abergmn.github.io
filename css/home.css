@@ -1,9 +1,9 @@
-.main-content {
+body div {
     width: 100%;
     max-width: 700px;
 }
 
-.main-content section {
+body div main section {
     padding: 1rem;
 }
 
@@ -12,7 +12,7 @@ main h1 {
     padding: 1rem;
 }
 
-#about-img {
+body div main section p img {
     float: right;
     margin: 0 0.5rem;
     max-width: 165px;

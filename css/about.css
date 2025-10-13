@@ -1,34 +1,29 @@
-.mainContainer {
+body div {
     max-width: 700px;
     width: 100%;
 }
 
-#about-title {
+body div main h2 {
     padding-bottom: 0.5rem;
     text-align: center;
 }
 
-#about-me, #skills, #goals,
-#resume-download {
+body div main section {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
 }
 
-#about-me {
+body div main section:first-of-type {
     padding-top: 0;
 }
 
-#about-me h2 {
-    text-align: center;
-}
-
-#about-me p:first-of-type {
+body div main section:first-of-type p:first-of-type {
     padding-top: 0.5rem;
 }
 
-#skills-list {
+body div main section:nth-of-type(2) ul {
     list-style-type: circle;
     padding-left: 1.5rem;
 }
