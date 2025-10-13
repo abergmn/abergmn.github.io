@@ -20,15 +20,6 @@ header {
     justify-content: center;
 }
 
-.main-content {
-    width: 100%;
-    max-width: 700px;
-}
-
-.main-content section {
-    padding: 1rem;
-}
-
 header, main {
     padding: 0.5rem 0 0.5rem 0;
 }
