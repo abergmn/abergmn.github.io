@@ -73,13 +73,6 @@ The site is automatically deployed via **GitHub Pages** from the `main` branch:
 - **Production URL**: [https://abergmn.github.io](https://abergmn.github.io)
 - No build process or tooling required — changes to tracked HTML/CSS/JS files in `main` are deployed automatically.
 
-To deploy manually:
-```bash
-git add .
-git commit -m "Some Info" -m "Additional info..."
-git push
-```
-
 ---
 
 ## ⚙️ Local Development
