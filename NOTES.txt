@@ -1,0 +1,7 @@
+=== img1 ===
+origin: https://www.salemstate.edu/register
+path: https://www.salemstate.edu/sites/default/files/styles/feature__three_column/public/images/2021_Salem_State_Spring-25.jpg?itok=ThpA-TV9
+
+=== img2 ===
+origin: https://www.salemstate.edu/admissions
+path: https://www.salemstate.edu/sites/default/files/images/aerial_4.jpg
