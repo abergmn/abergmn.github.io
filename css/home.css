@@ -15,9 +15,10 @@ main h1 {
 body div main section p img {
     float: right;
     margin: 0 0.5rem;
-    max-width: 165px;
+    max-width: 200px;
     width: 100%;
     height: auto;
+    border: 2px dashed rgb(128, 128, 128);
 }
 
 /* TEST */
