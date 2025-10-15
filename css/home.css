@@ -14,8 +14,8 @@ main h1 {
 
 body div main section p img {
     float: right;
-    margin: 0 1rem;
-    max-width: 200px;
+    margin: 0 1rem 1rem;
+    max-width: 250px;
     width: 100%;
     height: auto;
     border: 2px dashed rgb(128, 128, 128);
