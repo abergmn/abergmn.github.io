@@ -24,15 +24,11 @@ The site includes the following sections:
 - **Vanilla JavaScript** – Lightweight enhancements (DOM manipulation, UI feedback)  
 - **GitHub Pages** – Static site hosting and CI/CD via Git  
 - **Responsive Design** – Viewport scaling for mobile, tablet, and desktop  
-- **Open Graph Meta Tags** – Social media preview optimization  
 
 ---
 
 ## Deployment / Local Development
-The site is automatically deployed via **GitHub Pages** from the `main` branch:
-
-- **Production URL**: [https://abergmn.github.io](https://abergmn.github.io)
-- No build process or tooling required — changes to tracked HTML/CSS/JS files in `main` are deployed automatically.
+The site is automatically deployed via **GitHub Pages** from the `main` branch. No build process or tooling required — changes to tracked HTML/CSS/JS files in `main` are deployed automatically.
 
 To run the site locally for testing or development:
 
@@ -61,7 +57,6 @@ python -m http.server 8000
 ---
 
 ## Contact
-To discuss collaboration, internships, or professional opportunities:
 
 - Email: [a_bergmann@salemstate.edu](mailto:a_bergmann@salemstate.edu)
 - GitHub: [@abergmn](https://github.com/abergmn)
