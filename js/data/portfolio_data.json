@@ -1,15 +1,15 @@
 [
     {
-        "title": "GWrapper",
-        "description": "A lightweight Electron.js wrapper that handles splash screen and main window setup. Designed for fast bootstrapping of desktop apps with minimal configuration.",
+        "title": "Mosaic",
+        "description": "Mosaic is a source-available Python project designed for network reconnaissance and mapping",
         "image": "https://placehold.co/600x400",
-        "link": "https://github.com/abergmn/gwrapper"
+        "link": "https://github.com/abergmn/mosaic"
     },
     {
-        "title": "Project Two",
-        "description": "A brief description of the project.",
+        "title": "GWrapper",
+        "description": "A lightweight Electron.js wrapper designed for fast bootstrapping of desktop apps with minimal configuration",
         "image": "https://placehold.co/600x400",
-        "link": "https://example.com"
+        "link": "https://github.com/abergmn/gwrapper"
     },
     {
         "title": "Project Three",
