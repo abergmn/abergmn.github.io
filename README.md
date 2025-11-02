@@ -2,11 +2,9 @@
 
 This repository contains the source code for my personal website and technical portfolio, hosted via GitHub Pages. The site is a static, standards-compliant HTML/CSS/JS project designed to showcase my background, and skillset.
 
-> **Live Site:** [https://abergmn.github.io](https://abergmn.github.io)
-
 ---
 
-## 📄 Project Summary
+## Project Summary
 
 The objective of this project is to establish a professional, minimal, and performant personal website without relying on frameworks or third-party libraries. It is fully custom-built to maintain control over structure, semantics, accessibility, and performance.
 
@@ -19,7 +17,7 @@ The site includes the following sections:
 
 ---
 
-## 🛠️ Technologies & Standards
+## Technologies & Standards
 
 - **HTML5** – Semantic markup with accessibility and SEO considerations  
 - **CSS3** – Modular stylesheet structure (global + page-specific)  
@@ -30,52 +28,11 @@ The site includes the following sections:
 
 ---
 
-## 🧱 Directory Structure
-
-```bash
-.
-├── index.html              # Home page
-├── about.html              # Background, skills, resume
-├── portfolio.html          # Project showcase
-├── contact.html            # Contact information
-│
-├── css/
-│   ├── global.css          # Shared styles
-│   ├── home.css            # Home-specific layout
-│   ├── about.css           # About page styles
-│   ├── contact.css         # Contact styling
-│   └── portfolio.css       # Portfolio section styling
-│
-├── js/
-│   ├── script.js           # Common scripts (e.g., dynamic year)
-│   ├── typingEffect.js     # Typing animation on landing page
-│   └── portfolioHandler.js # (Optional) dynamic content logic
-│
-├── img/
-│   ├── favicon.ico
-│   ├── home-preview.png
-│   ├── about-preview.png
-│   ├── contact-preview.png
-│   └── portfolio-preview.png
-│
-├── files/
-│   └── resume.pdf          # Downloadable CV
-│
-└── README.md               # Project documentation
-```
-
----
-
-## 🚀 Deployment
-
+## Deployment / Local Development
 The site is automatically deployed via **GitHub Pages** from the `main` branch:
 
 - **Production URL**: [https://abergmn.github.io](https://abergmn.github.io)
 - No build process or tooling required — changes to tracked HTML/CSS/JS files in `main` are deployed automatically.
-
----
-
-## ⚙️ Local Development
 
 To run the site locally for testing or development:
 
@@ -96,26 +53,23 @@ python -m http.server 8000
 
 ---
 
-## 🔐 Security Considerations
-
+## Security Considerations
 - No user input is processed on the frontend.
 - Contact interactions are handled via `mailto:` and external links.
 - Static-only hosting minimizes attack surface and dependency risk.
 
 ---
 
-## 📬 Contact
-
+## Contact
 To discuss collaboration, internships, or professional opportunities:
 
-- 📧 Email: [a_bergmann@salemstate.edu](mailto:a_bergmann@salemstate.edu)
-- 💻 GitHub: [@abergmn](https://github.com/abergmn)
-<!-- - 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile) -->
+- Email: [a_bergmann@salemstate.edu](mailto:a_bergmann@salemstate.edu)
+- GitHub: [@abergmn](https://github.com/abergmn)
+<!-- - LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile) -->
 
 ---
 
-## 📄 License
-
+## License
 This project is proprietary and all rights are reserved.
 
 Use, distribution, or modification of any part of this codebase without **explicit prior written permission** from the copyright holder is strictly prohibited.
