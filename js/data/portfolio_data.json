@@ -1,20 +1,20 @@
 [
     {
         "title": "Mosaic",
-        "description": "Mosaic is a source-available Python project designed for network reconnaissance and mapping",
+        "description": "Mosaic is an open-source Python project designed for network reconnaissance and mapping (in-development)",
         "image": "https://placehold.co/600x400",
         "link": "https://github.com/abergmn/mosaic"
     },
     {
         "title": "GWrapper",
-        "description": "A lightweight Electron.js wrapper designed for fast bootstrapping of desktop apps with minimal configuration",
+        "description": "A lightweight Electron.js wrapper designed for fast bootstrapping of desktop apps with minimal configuration (in-development)",
         "image": "https://placehold.co/600x400",
         "link": "https://github.com/abergmn/gwrapper"
     },
     {
-        "title": "Project Three",
-        "description": "A brief description of a the project.",
+        "title": "A-Client",
+        "description": "(A brief description of aclient...)",
         "image": "https://placehold.co/600x400",
-        "link": "https://example.com"
+        "link": "https://github.com/abergmn/aclient"
     }
 ]
